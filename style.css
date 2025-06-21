@@ -1,0 +1,47 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.glowing-button img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.glowing-button img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 30px 10px #fff;
+}
