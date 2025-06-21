@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mahirr.co</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">mahirr.co</h1>
+        <p class="description">Many more</p>
+        <div class="buttons">
+            <a href="https://instagram.com" target="_blank" class="glowing-button">
+                <img src="assets/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://discord.com" target="_blank" class="glowing-button">
+                <img src="assets/discord.png" alt="Discord">
+            </a>
+            <a href="https://github.com" target="_blank" class="glowing-button">
+                <img src="assets/github.png" alt="GitHub">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
